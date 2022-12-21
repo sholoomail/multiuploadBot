@@ -13,9 +13,5 @@ services:
         sync: false
       - key: API_HASH 
         sync: false
-      - key: CHNAME 
-        sync: false
       - key: OWNER_ID 
-        sync: false
-      - key: LOG_CHANNEL 
         sync: false
