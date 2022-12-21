@@ -16,6 +16,11 @@ _🎯 Follow me and star this repo for more telegram bots. @HxBots
 - *Simple UI*
 - *Many More...*
 
+
+### Deploy To Render (Paid)
+
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?)
+
 ## 🚩 Deploy to Heroku
 
 *_Click below button to deploy heroku and fill requred vars. Nothing else._*
