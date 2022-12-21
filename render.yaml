@@ -1,0 +1,21 @@
+services:
+  - type: worker
+    name: multiuploadBot
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python -m multiupload
+    repo: https://github.com/sholoomail/multiuploadBot.git
+    branch: rm-fs-lc
+    envVars:
+      - key: BOT_TOKEN 
+        sync: false
+      - key: API_ID 
+        sync: false
+      - key: API_HASH 
+        sync: false
+      - key: CHNAME 
+        sync: false
+      - key: OWNER_ID 
+        sync: false
+      - key: LOG_CHANNEL 
+        sync: false
